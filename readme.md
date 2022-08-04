@@ -11,6 +11,16 @@
 
 https://user-images.githubusercontent.com/4911300/182365285-0148b08a-5b33-4bf3-9e48-d0fdd7f286bd.mp4
 
+## prerequisites
+
+### Ubuntu
+
+In order to build this project on Ubuntu you'll still need some of thoses packages :
+
+```sh
+sudo apt install -y build-essential x11proto-core-dev libx11-dev mesa-common-dev libglu1-mesa-dev
+```
+
 ## building
 
   Building requires C99 compiler & OpenGL (see `makefile`).
